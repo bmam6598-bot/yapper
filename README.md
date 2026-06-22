@@ -1,8 +1,8 @@
-# Yapper 🗣️
+# Twitter 🐦
 
-In a world full of long-form articles and polished updates, **Yapper** is built for the "yappers." Whether it's a hot take on sports, a midnight epiphany, or just a stream-of-consciousness thread that nobody asked for—Yapper gives you the mic.
+In a world full of long-form articles and polished updates, **Twitter** is built for the "The tweeters that miss the old days." Whether it's a hot take on sports, a midnight epiphany, or just a stream-of-consciousness thread that nobody asked for—Yapper gives you the mic.
 
-> **"Don't just post. Yap."** > We believe every thought deserves a thread. Yapper is your space to talk your talk, find your crowd, and yap freely without the filter.
+> **"Don't just post. Tweet."** > We believe every thought deserves a thread. Yapper is your space to talk your talk, find your crowd, and yap freely without the filter.
 
 ---
 
@@ -61,7 +61,7 @@ In a world full of long-form articles and polished updates, **Yapper** is built 
 
 ## Overview
 
-Yapper is a cross-platform mobile application built with **Expo** and **React Native**, offering a Twitter-like social media experience. The app features:
+Twitter is a cross-platform mobile application built with **Expo** and **React Native**, offering a Twitter-like social media experience. The app features:
 
 - 🔐 Secure authentication with multi-step sign-up and Google Sign-In
 - 💬 Real-time messaging and chat with WebSocket support
@@ -77,7 +77,7 @@ Yapper is a cross-platform mobile application built with **Expo** and **React Na
 ---
 ## Get the App
 
-Experience Yapper on your device today.
+Experience twitter on your device today.
 
 1.  **Download:** Head to the **[Latest Release](https://github.com/salehahmed99/yapper-mobile/releases/latest)**.
 2.  **Install:** Download the `.apk` file for Android.
