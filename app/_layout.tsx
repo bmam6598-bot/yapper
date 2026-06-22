@@ -28,6 +28,21 @@ const AuthInitializer: React.FC<IAuthInitializerProps> = ({ children }) => {
   return <>{children}</>;
 };
 
+// Environment Configuration
+const AppVersion = {
+  getCurrentEnvironment: (): 'development' | 'preview' | 'production' => {
+    const env = process.env.EXPO_PUBLIC_NODE_ENV || 'development';
+    return env as 'development' | 'preview' | 'production';
+  },
+  isDevelopment: () => AppVersion.getCurrentEnvironment() === 'development',
+  isPreview: () => AppVersion.getCurrentEnvironment() === 'preview',
+  isProduction: () => AppVersion.getCurrentEnvironment() === 'production',
+  getVersionLabel: (): string => {
+    const env = AppVersion.getCurrentEnvironment();
+    return env.charAt(0).toUpperCase() + env.slice(1);
+  },
+};
+
 Notifications.setNotificationHandler({
   handleNotification: async () => ({
     shouldPlaySound: true,
@@ -82,6 +97,11 @@ export default function RootLayout() {
       try {
         // Load the language BEFORE rendering the app
         await initLanguage();
+
+        // Log environment information in development
+        if (AppVersion.isDevelopment()) {
+          console.log(`🚀 Yapper loaded: ${AppVersion.getVersionLabel()} environment`);
+        }
       } catch (e) {
         console.warn(e);
       } finally {
@@ -122,3 +142,6 @@ const styles = StyleSheet.create({
     flex: 1,
   },
 });
+
+// Export for external access
+export { AppVersion };
