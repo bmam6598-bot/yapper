@@ -79,7 +79,7 @@ Twitter is a cross-platform mobile application built with **Expo** and **React N
 
 Experience twitter on your device today.
 
-1.  **Download:** Head to the **[Latest Release](https://github.com/salehahmed99/yapper-mobile/releases/latest)**.
+1.  **Download:** You see there is only one download source and it is here. 
 2.  **Install:** Download the `.apk` file for Android.
 3.  **Scan:** (Optional) If you are using Expo Go, scan your development QR code here.
 
@@ -537,11 +537,11 @@ Quick contribution steps:
 
 ## Authors
 
-This project was built with ❤️ by our amazing team:
+Let's give out some shout-outs, shall we? 
 
 | Name                   | GitHub                                                 | Role           |
 | ---------------------- | ------------------------------------------------------ | -------------- |
-| **Saleh Ahmed**        | [@salehahmed99](https://github.com/salehahmed99)       | Lead Developer |
+| **Mans**               | I helped develop this social media.                    | Lead Developer |
 | **Karim Yasser**       | [@KarimmYasser](https://github.com/KarimmYasser)       | Developer      |
 | **Abdallah Ayman**     | [@AbdallahAyman03](https://github.com/AbdallahAyman03) | Developer      |
 | **Ahmed Kamal**        | [@ahmedkamal14](https://github.com/ahmedkamal14)       | Developer      |
@@ -549,11 +549,11 @@ This project was built with ❤️ by our amazing team:
 
 ### Project Statistics
 
-- 📅 **Project Started**: October 2025
+- 📅 **Project Started**: May 2016 
 - 📝 **Total Commits**: 595+
-- 🏷️ **Latest Release**: v1.3.0 (December 2025)
+- 🏷️ **Latest Release**: v1.3.0 (December 31 2019)
 - 👥 **Contributors**: 6 team members
-- 🌿 **Active Branches**: 33
+- 🌿 **Active Branches**: 2
 
 ---
 
